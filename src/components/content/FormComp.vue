@@ -49,7 +49,7 @@
                                 :guide="true"
                                 placeholderChar="_"
                                 placeholder="DD/MM/YYYY"
-                                v-validate="'date_format:DD/MM/YYYY'">
+                                v-validate="'required'">
                             </masked-input>
                         </div>
                     </div>
@@ -149,7 +149,7 @@ export default {
          return; 
         }
 
-        alert('Correct them errors!');
+        alert('Please fill in all fields correctly and accept our terms and conditions.');
       });
     }
   }
