@@ -1,0 +1,163 @@
+@font-face{
+    font-family: "Sans-Serif";
+    src: url("../fonts/Microsoft Sans Serif.ttf");
+}
+@font-face{
+    font-family: "Source-Bold";
+    src: url("../fonts/SourceSansPro-Bold.otf");
+}
+@font-face{
+    font-family: "Source-Reg";
+    src: url("../fonts/SourceSansPro-Regular.otf");
+}
+@font-face{
+    font-family: "Source-semibold";
+    src: url("../fonts/SourceSansPro-Semibold.otf");
+}
+@font-face{
+    font-family: "Urw-bold";
+    src: url("../fonts/URWDINCond-Bold.otf");
+}
+@font-face{
+    font-family: "Urw-demi";
+    src: url("../fonts/URWDINCond-Demi.otf");
+}
+
+body {
+    background-image: url("../img/bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+.header{
+    margin: 30px 0px;
+}
+.logo{
+    width: 20%;
+    
+}
+.header h1{
+    margin-top: 20px;
+    font-family: "Urw-bold";
+    font-size: 70px;
+}
+.header p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: "Source-semibold";
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto
+}
+.Appointment{
+    padding-top: 40px;
+    font-family: "Urw-demi"!important;
+    font-size: 24px !important;
+}
+.Appointment span{
+    color: #009BDF;
+}
+.teams{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.win{
+    background-color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Source-Reg";
+    font-size: 14px;
+    line-height: .75rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px #AFAFAF;
+}
+.l-form{
+    border-right: solid 1px #D7D7D7
+}
+.email h2 {
+    font-family: "Urw-demi";
+    text-transform: uppercase;
+    padding: 0px 20px;
+    font-size: 26px;
+}
+.email span{
+    border-radius: 0px;
+    background-color: #000;
+    color: #fff;
+}
+button[type="submit"]{
+    margin: 5px;
+    width: 60%;
+    font-family: "Urw-demi";
+    font-size: 35px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    background-color: #009CE0;
+    border: 0;
+}
+input{
+    border-radius: 0px!important;
+}
+
+.social{
+    font-family: "Urw-demi";
+    text-transform: uppercase;
+}
+.social a{
+    margin-right: 20px;
+}
+.social h1 {
+    font-size: 18px;
+    color:white
+}
+
+@media screen and (max-width: 767px){
+    body {
+        background-image: linear-gradient(#fff, #000);
+    }
+    .header h1{
+        font-size: 30px;
+    }
+    .header p{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 13px;
+        width: 100%;
+        margin: 0 auto
+    }
+    .Appointment{
+        padding-top: 5px;
+        font-size: 12px !important;
+    }
+    .teams{
+        margin-top: 5px;
+    }
+    .win{
+        width: 100%;
+    }
+    .l-form{
+        border-right: 0px;
+        padding: 0px;
+    }
+    .email{
+        padding: 10px 0px;
+    }
+    .email h2 {
+        font-size: 18px;
+    }
+    button[type="submit"]{
+        font-size: 18px;
+    }
+    .social img{
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(#fff, #000);
+    }
+
+}
