@@ -60,25 +60,25 @@
                 </div>
                 <div class="col-lg-6 col-md-12 email">
                     <h2 class="text-center">Met welke vrienden wil jij dezeervaring delen?</h2>
-                    <div class="input-group mb-3">
+                    <div class="input-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1">1</span>
                         </div>
                         <input type="text" class="form-control" placeholder="E-mailadres vriend" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
-                    <div class="input-group mb-3">
+                    <div class="input-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1">2</span>
                         </div>
                         <input type="text" class="form-control" placeholder="E-mailadres vriend" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
-                    <div class="input-group mb-3">
+                    <div class="input-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1">3</span>
                         </div>
                         <input type="text" class="form-control" placeholder="E-mailadres vriend" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
-                    <div class="input-group mb-3">
+                    <div class="input-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1">4</span>
                         </div>
@@ -87,7 +87,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-12 ml-auto text-center">
+                <div class="col-12 ml-auto text-center agreed">
                     <div class="custom-control custom-checkbox custom-control-inline">
                         <input type="checkbox" class="custom-control-input" id="agreed"
                         name="agreed" v-model="user.agreed" v-validate="'required'" :class="{'input': true, 'is-danger': errors.has('agreed') }" >

@@ -50,7 +50,7 @@ body {
     margin: 0 auto
 }
 .Appointment{
-    padding-top: 40px;
+    padding-top: 30px;
     font-family: "Urw-demi"!important;
     font-size: 24px !important;
 }
@@ -58,13 +58,13 @@ body {
     color: #009BDF;
 }
 .teams{
-    margin-top: 20px;
-    width: 80%;
+    margin-top: 10px;
+    width: 70%;
 }
 
 .win{
     background-color: #fff;
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
     padding: 20px;
     font-family: "Source-Reg";
@@ -76,16 +76,24 @@ body {
 .l-form{
     border-right: solid 1px #D7D7D7
 }
+.custom-control-label {
+    padding-top: .25rem;
+}
 .email h2 {
     font-family: "Urw-demi";
     text-transform: uppercase;
     padding: 0px 20px;
-    font-size: 26px;
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+.email .input-group{
+    margin-bottom: 10px;
 }
 .email span{
     border-radius: 0px;
     background-color: #000;
     color: #fff;
+    height: 30px;
 }
 button[type="submit"]{
     margin: 5px;
@@ -96,17 +104,20 @@ button[type="submit"]{
     border-radius: 0px;
     background-color: #009CE0;
     border: 0;
+    line-height: 3.5rem;
 }
 input{
     border-radius: 0px!important;
+    height: 30px!important;
 }
 
 .social{
     font-family: "Urw-demi";
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
 .social a{
-    margin-right: 20px;
+    margin: 20px;
 }
 .social h1 {
     font-size: 18px;
@@ -115,7 +126,8 @@ input{
 
 @media screen and (max-width: 767px){
     body {
-        background-image: linear-gradient(#fff, #000);
+        background-image: url("../img/sm-bg.png"), linear-gradient(#fff, #fff, #000)!important;
+        background-repeat: repeat-x, no-repeat!important;
     }
     .header h1{
         font-size: 30px;
@@ -127,18 +139,26 @@ input{
         width: 100%;
         margin: 0 auto
     }
-    .Appointment{
-        padding-top: 5px;
-        font-size: 12px !important;
+    .header img {
+        width: 30%;
     }
     .teams{
         margin-top: 5px;
     }
     .win{
         width: 100%;
+        padding: 30px 30px 10px;
+        border-radius: 10px;
     }
     .l-form{
         border-right: 0px;
+        padding: 0px;
+    }
+    .custom-control-label {
+        font-size: 13px;
+        padding-top: .25rem;
+    }
+    .agreed{
         padding: 0px;
     }
     .email{
@@ -149,15 +169,48 @@ input{
     }
     button[type="submit"]{
         font-size: 18px;
+        line-height: 1.5rem;
+        width: 80%;
+        margin-top: 15px;
+    }
+    .social{
+        padding-bottom: 20px;
+    }
+    .Appointment{
+        padding-top: 10px;
+    }
+    .social a{
+        margin: 0px 15px;
     }
     .social img{
         height: 20px;
     }
 }
 
-@media screen and (max-width: 992px) {
-    body {
-        background-image: linear-gradient(#fff, #000);
-    }
+@media screen and (width: 768px){
+    body{
+        background-position: center;
+        background-size: 85vh 112vh;
 
+    }
+    .header{
+        margin: 30px 0px 10px;
+    }
+    .logo {
+        width: 10%;
+    }
+    .header h1{
+        font-size: 45px;
+    }
+    .header p{
+        font-size: 15px;
+        width: 60%;
+    }
+    .Appointment{
+        padding-top: 10px;
+        font-size: 18px!important;
+    }
+    .teams{
+        width: 50%;
+    }
 }
