@@ -134,6 +134,7 @@ input{
     }
     .header h1{
         font-size: 30px;
+            margin-bottom: 20px;
     }
     .header p{
         margin-top: 0px;
@@ -193,7 +194,6 @@ input{
 @media screen and (width: 768px){
     body{
         background-position: bottom;
-        background-size: 85vh 112vh;
 
     }
     .header{
