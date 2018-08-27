@@ -77,6 +77,9 @@ body {
 .l-form{
     border-right: solid 1px #D7D7D7
 }
+.custom-control-inline{
+    margin: 10px 10px!important;
+}
 .custom-control-label {
     padding-top: .25rem;
 }
