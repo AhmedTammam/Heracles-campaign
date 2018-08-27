@@ -143,11 +143,15 @@ input{
         width: 100%;
         margin: 0 auto
     }
-    .header img {
+    .logo {
         width: 30%;
+    }
+    .Appointment{
+        font-size: 15px!important;
     }
     .teams{
         margin-top: 5px;
+        width: 90%;
     }
     .win{
         width: 100%;
@@ -168,8 +172,12 @@ input{
     .email{
         padding: 10px 0px;
     }
+    .birth{
+        margin-bottom: 10px!important;
+    }
     .email h2 {
         font-size: 18px;
+        margin-bottom: 20px;
     }
     button[type="submit"]{
         font-size: 18px;
@@ -215,6 +223,9 @@ input{
     }
     .teams{
         width: 50%;
+    }
+    .l-form{
+        border: 0px;
     }
     .gender{
         min-width: 100%;
