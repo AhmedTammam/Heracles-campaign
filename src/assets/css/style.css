@@ -87,13 +87,16 @@ body {
     margin-bottom: 35px;
 }
 .email .input-group{
-    margin-bottom: 10px;
+    margin-bottom: 13px;
 }
 .email span{
     border-radius: 0px;
     background-color: #000;
     color: #fff;
     height: 30px;
+}
+.custom-control-inline{
+    margin: 10px 0px;
 }
 button[type="submit"]{
     margin: 5px;
@@ -104,7 +107,7 @@ button[type="submit"]{
     border-radius: 0px;
     background-color: #009CE0;
     border: 0;
-    line-height: 3.5rem;
+    line-height: 2.5rem;
 }
 input{
     border-radius: 0px!important;
@@ -189,7 +192,7 @@ input{
 
 @media screen and (width: 768px){
     body{
-        background-position: center;
+        background-position: bottom;
         background-size: 85vh 112vh;
 
     }
@@ -212,5 +215,21 @@ input{
     }
     .teams{
         width: 50%;
+    }
+    .gender{
+        min-width: 100%;
+        margin-bottom: 10px;
+    }
+    .birth{
+        margin-bottom: 10px!important;
+    }
+    .email h2{
+        margin: 0px 0px 20px;
+    }
+    .custom-control-inline{
+        margin: 20px 0px;
+    }
+    .button[type="submit"]{
+        width:90%
     }
 }

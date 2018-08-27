@@ -21,7 +21,7 @@
                             :class="{'input': true, 'is-danger': errors.has('lastName') }">
                     </div>
                     <div class="row">
-                        <div class="col-md-7">
+                        <div class="col-md-7 gender">
                             <label class="d-block">Geslacht<span class="err" v-show="errors.has('gender')">*</span></label>
                             <div class="custom-control custom-radio custom-control-inline">
                                 <input type="radio" class="custom-control-input" id="defaultInline1"
@@ -34,7 +34,7 @@
                                 <label class="custom-control-label" for="defaultInline2">VROUW</label>
                             </div>
                         </div>
-                        <div class="col-md-5 my-1">
+                        <div class="col-md-5 my-1 birth">
                             <label class="d-block" for="date">Geboortedatum
                                 <span class="err" v-show="errors.has('dateOfBirth')">*</span>
                             </label>
