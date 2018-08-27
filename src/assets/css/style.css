@@ -24,9 +24,10 @@
 }
 
 body {
-    background-image: url("../img/bg.png");
-    background-size: 100%;
-    background-repeat: no-repeat
+    background-image: url("../img/sm-bg.png"),url("../img/bg.png")!important;
+    background-repeat: repeat-x, no-repeat!important;
+    background-position: top, bottom;
+    background-size: 100%
 }
 
 .header{
@@ -131,6 +132,7 @@ input{
     body {
         background-image: url("../img/sm-bg.png"), linear-gradient(#fff, #fff, #000)!important;
         background-repeat: repeat-x, no-repeat!important;
+        background-position: top, center;
     }
     .header h1{
         font-size: 30px;
@@ -162,10 +164,10 @@ input{
         border-right: 0px;
         padding: 0px;
     }
-    .custom-control-label {
-        font-size: 13px;
-        padding-top: .25rem;
+    .custom-control-inline{
+        margin: 10px 10px;
     }
+    
     .agreed{
         padding: 0px;
     }
@@ -201,7 +203,9 @@ input{
 
 @media screen and (width: 768px){
     body{
-        background-position: bottom;
+        background-image: url("../img/sm-bg.png"),url("../img/bg.png")!important;
+        background-repeat: repeat-x, no-repeat!important;
+        background-position: top, bottom;
 
     }
     .header{
@@ -229,7 +233,6 @@ input{
     }
     .gender{
         min-width: 100%;
-        margin-bottom: 10px;
     }
     .birth{
         margin-bottom: 10px!important;
@@ -238,7 +241,7 @@ input{
         margin: 0px 0px 20px;
     }
     .custom-control-inline{
-        margin: 20px 0px;
+        margin: 10px 10px;
     }
     .button[type="submit"]{
         width:90%
