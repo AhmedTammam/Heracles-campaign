@@ -1,5 +1,7 @@
 # orphelia-vue
 
+Registeration form for Pullman Stadium 
+
 ## Project setup
 ```
 yarn install
