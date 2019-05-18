@@ -1,6 +1,6 @@
-# orphelia-vue
+# Heracles-campaign-vue
 
-Registration form for Pullman Stadium  
+winner form for Lottary Pullman Stadium  
 
 ## Project setup
 ```
