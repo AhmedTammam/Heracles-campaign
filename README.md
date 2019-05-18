@@ -1,6 +1,6 @@
 # orphelia-vue
 
-Registeration form for Pullman Stadium 
+Registration form for Pullman Stadium  
 
 ## Project setup
 ```
